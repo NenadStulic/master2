@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+         .carousel-inner img {
+            height: 550px;
+        }
+       .row img {
+           width: 100%;
+       }
+    </style>
+</head>
+<body>
+    <!--navigacija-->
+        <nav class="navbar navbar-expand-sm  bg-dark navbar-dark sticky-top mb-1">
+                <a href="index.html" class="navbar-brand"><img src="targaryen.png" alt="Logo" style="height:40px;"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                   <span class="navbar-toggle-icon"></span>
+               </button>
+        
+               <div class="collapse navbar-collapse" id="collapseNavbar">
+                   <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a href="#" class="nav-link active" >O meni</a>
+                       </li>
+                       <li class="nav-item">
+                           <a href="kontakt.html" class="nav-link">Kontakt</a>
+                       </li>
+                       <li class="nav-item">
+                            <a href="#" class="nav-link">Projekti</a>
+                        </li>
+        
+                   </ul>
+               </div>
+            </nav>
+            <!--carousel-->
+            <div id="demo" class="carousel slide d-none d-sm-block" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                      <li data-target="#demo" data-slide-to="3"></li>
+                      <li data-target="#demo" data-slide-to="4"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block mx-auto" src="forest.jpg" alt="forest picture" >
+                        <div class="carousel-caption">
+                          <h3>Priroda</h3>
+                          <p>Odlazak u prirodu, a najvise u sumu</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block mx-auto" src="hike.jpg" alt="Chicago" >
+                        <div class="carousel-caption">
+                          <h3 >Setnja</h3>
+                          <p>Hodanje u prirodi ili cesto hodanje uopste</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block mx-auto" src="swimm1.jpg" alt="New York">
+                        <div class="carousel-caption">
+                          <h3 >Plivanje</h3>
+                          <p >Plivanje u jezeru ili reci</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                            <img class="d-block mx-auto" src="bike.jpg" alt="New York" >
+                            <div class="carousel-caption">
+                              <h3>Voznja biciklom</h3>
+                              <p>Voznja biciklom izvan naseljenog mesta</p>
+                            </div>   
+                          </div>
+                          <div class="carousel-item">
+                                <img class="d-block mx-auto" src="beer.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                  <h3>Pivo</h3>
+                                  <p>Uzivanje u zltanoj tecnosti sa drustvom</p>
+                                </div>   
+                              </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon bg-success"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon bg-success"></span>
+                    </a>
+                  </div>
+                  <!--slike na sm-->
+                  <div class="row d-sm-none">
+                        <div id="vrh-sm" class="col-12"><img src="forest.jpg"></div>
+                    </div>
+                    
+                    <div class="row d-sm-none">
+                        <div class="col-12"><img src="hike.jpg"></div>
+                    </div>
+                    
+                    <div class="row d-sm-none">
+                        <div class="col-12"><img src="swimm1.jpg"></div>
+                    </div>
+                    
+                    <div class="row d-sm-none">
+                        <div class="col-12"><img src="bike.jpg"></div>
+                    </div>
+
+                    <div class="row d-sm-none">
+                            <div class="col-12"><img src="beer.jpg"></div>
+                        </div>
+                    
+                    </div>
+
+                    <h2 class="text-center mt-5">Omiljene serije</h3>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12 mb-1"> 
+                                   <a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_1?ref_=nv_sr_1" title="Procitajte vise"><img src="got.jpg" alt="got"></a> 
+                                </div>
+                                <div class="col-md-3 col-sm-12 mb-1"> 
+                                       <a href="https://www.imdb.com/title/tt1856010/?ref_=nv_sr_1?ref_=nv_sr_1" title="Procitajte vise"><img src="spacey.jpg" alt="HoC"></a> 
+                                    </div>
+                                    <div class="col-md-3 col-sm-12 mb-1"> 
+                                           <a href="https://www.imdb.com/title/tt0096697/?ref_=nv_sr_1?ref_=nv_sr_1" title="Procitajte vise"><img src="simpsons.jpg" alt="simpsons"></a> 
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 mb-1"> 
+                                           <a href="https://www.imdb.com/title/tt1839578/?ref_=nv_sr_1?ref_=nv_sr_1" title="Procitajte vise"> <img src="person.jpg" alt="person" style="height:100%;"></a>    
+                                            </div>    
+                            </div>
+
+
+                        </div>
+
+
+            
+
+         </div>  
+         
+         <div class="jumbotron jumbotron-fluid text-center bg-dark text-info mt-5 mb-0" >
+                <p><a href="#vrh-sm" class="text-white lead">Povratak na vrh stranice</a></p>
+                <p>autor: <a href="mailto:nstulic@gmail.com?&subject=Komentar%20sajta&body=Slobodno%20ostavite%20Vas%20komenar%20sta%20mislite%20o%20sajtu!" target="_top"> nstulic@gmail.com</a></p>
+              </div>
+    
+</body>
+</html>
